@@ -182,6 +182,10 @@ body {
       width: 90px;
       height: 125px
     }
+    .video-widget.video-widget[data-state=opened] .video-widget__container{
+      width: 130px;
+      height: 200px;
+    }
   }
 
   .video-widget__button {

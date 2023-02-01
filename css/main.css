@@ -139,9 +139,5 @@ body .video-widget.video-widget[data-state=opened] .video-widget__button {
     height: 200px;
   }
 }
-body .video-widget__button {
-  color: #000000 !important;
-  text-decoration: none;
-}
 
 /*# sourceMappingURL=main.css.map */

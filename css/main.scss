@@ -66,7 +66,7 @@ body {
     z-index: 250;
     opacity: 0;
     -webkit-transition: opacity .2s ease-in-out 0s, -webkit-transform .3s ease-in-out 0s;
-    transition: opacity .2s ease-in-out 0s, -webkit-transform .3s ease-in-out 0s,;
+    transition: opacity .2s ease-in-out 0s, -webkit-transform .3s ease-in-out 0s;
     -o-transition: opacity .2s ease-in-out 0s, -o-transform .3s ease-in-out 0s;
     -moz-transition: transform .3s ease-in-out 0s, opacity .2s ease-in-out 0s, -moz-transform .3s ease-in-out 0s;
     transition: transform .3s ease-in-out 0s, opacity .2s ease-in-out 0s;

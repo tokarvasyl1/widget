@@ -5,18 +5,14 @@ body .video-widget {
   bottom: 0;
 }
 body .video-widget__container {
-  font-family: Helvetica;
   z-index: 999999;
   overflow: hidden;
-  border-style: solid;
-  background: #eee;
   -webkit-transition: width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s;
   transition: width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s;
   -o-transition: width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
   -moz-transition: transform 0.2s ease-in-out 0s, width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s;
   transition: transform 0.2s ease-in-out 0s, width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s;
   transition: transform 0.2s ease-in-out 0s, width 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, bottom 0.3s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
-  outline: 0;
   cursor: pointer;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,7 +24,7 @@ body .video-widget__container {
   -webkit-tap-highlight-color: transparent;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
-  position: absolute;
+  position: relative;
   left: 20px;
   bottom: 50px;
   border-radius: 20px;

@@ -136,8 +136,6 @@ body .video-widget__button {
 
 @media (max-width: 768px) {
   .video-widget__container {
-    left: 15px;
-    bottom: 15px;
     width: 90px;
     height: 125px;
   }

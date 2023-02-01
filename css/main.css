@@ -136,8 +136,8 @@ body .video-widget__button {
 
 @media (max-width: 768px) {
   .video-widget__container {
-    width: 90px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
   }
   .video-widget.video-widget[data-state=opened] .video-widget__container {
     width: 130px;

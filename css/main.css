@@ -117,11 +117,9 @@ body .video-widget.video-widget[data-state=opened] .video-widget__close:hover {
   opacity: 1;
 }
 body .video-widget__button {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  left: 20px;
-  height: 65px;
+  position: relative;
+  padding: 10px 0;
+  bottom: 60px;
   border-radius: 10px;
   z-index: 300;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 15px;
@@ -134,19 +132,20 @@ body .video-widget__button {
   transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s;
   transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
   visibility: hidden;
-  background-color: #fdd82a;
-  font-size: 14px;
-  font-family: Helvetica;
-  color: #000;
-  text-align: center;
+  background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
   vertical-align: middle;
-  line-height: 65px;
-  text-transform: uppercase;
   opacity: 0;
+  width: 80%;
+  animation: wiggle 4s 1s infinite;
 }
 body .video-widget__button:hover {
-  background-color: #ffe257;
-  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #f1ae5a 0%, #d7a97b 100%);
+  color: black;
+  animation: none;
 }
 body .video-widget.video-widget[data-state=opened] .video-widget__button {
   opacity: 1;
@@ -166,6 +165,38 @@ body .video-widget.video-widget[data-state=opened] .video-widget__button {
     width: 180px;
     height: 260px;
   }
+}
+
+@keyframes wiggle {
+  5%, 50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+.widget_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -131,12 +131,12 @@ body .video-widget.video-widget[data-state=opened] .video-widget__button {
 }
 @media only screen and (max-width: 768px) {
   body .video-widget__container {
-    width: 90px;
-    height: 125px;
+    width: 110px;
+    height: 140px;
   }
   body .video-widget.video-widget[data-state=opened] .video-widget__container {
-    width: 130px;
-    height: 200px;
+    width: 150px;
+    height: 220px;
   }
 }
 

@@ -116,6 +116,34 @@ body .video-widget.video-widget[data-state=opened] .video-widget__close:after {
 body .video-widget.video-widget[data-state=opened] .video-widget__close:hover {
   opacity: 1;
 }
+body .video-widget__button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  height: 65px;
+  border-radius: 10px;
+  z-index: 300;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 15px;
+  text-align: center;
+  -webkit-transition: opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s;
+  transition: opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s;
+  -o-transition: opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
+  -moz-transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s;
+  transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s;
+  transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
+  visibility: hidden;
+  background-color: #fdd82a;
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 65px;
+  text-transform: uppercase;
+  opacity: 0;
+}
 body .video-widget__button:hover {
   background-color: #ffe257;
   text-decoration: none;

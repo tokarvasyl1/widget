@@ -124,10 +124,15 @@ body .video-widget.video-widget[data-state=opened] .video-widget__button {
   opacity: 1;
   visibility: visible;
 }
+@media only screen and (max-width: 1023px) {
+  body .video-widget__close {
+    opacity: 0.5;
+  }
+}
 @media only screen and (max-width: 768px) {
   body .video-widget__container {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 125px;
   }
   body .video-widget.video-widget[data-state=opened] .video-widget__container {
     width: 130px;

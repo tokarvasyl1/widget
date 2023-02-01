@@ -170,11 +170,15 @@ body {
     visibility: visible
   }
 
-
+  @media only screen and (max-width: 1023px) {
+    .video-widget__close {
+      opacity: .5
+    }
+  }
   @media only screen and (max-width: 768px) {
     .video-widget__container {
-      width: 70px;
-      height: 70px
+      width: 90px;
+      height: 125px
     }
     .video-widget.video-widget[data-state=opened] .video-widget__container{
       width: 130px;

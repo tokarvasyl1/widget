@@ -129,21 +129,22 @@ body .video-widget.video-widget[data-state=opened] .video-widget__button {
     opacity: 0.5;
   }
 }
-@media only screen and (max-width: 479px) {
-  body .video-widget__container {
+body .video-widget__button {
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .video-widget__container {
     left: 15px;
     bottom: 15px;
     width: 90px;
     height: 125px;
   }
-  body .video-widget.video-widget[data-state=opened] .video-widget__container {
+  .video-widget.video-widget[data-state=opened] .video-widget__container {
     width: 130px;
     height: 200px;
   }
-}
-body .video-widget__button {
-  color: #000000 !important;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

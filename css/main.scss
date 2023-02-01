@@ -10,8 +10,12 @@ body {
     z-index: 999999;
     overflow: hidden;
     -webkit-transition: width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform .2s ease-in-out 0s;
+    transition: width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform .2s ease-in-out 0s;
     -o-transition: width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s, -o-transform .2s ease-in-out 0s;
     -moz-transition: transform .2s ease-in-out 0s, width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s, -moz-transform .2s ease-in-out 0s;
+    transition: transform .2s ease-in-out 0s, width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s;
+    transition: transform .2s ease-in-out 0s, width .3s ease-in-out 0s, height .3s ease-in-out 0s, bottom .3s ease-in-out 0s, border-color .2s ease-in-out 0s, opacity 1s ease-in-out 0s, -webkit-transform .2s ease-in-out 0s, -moz-transform .2s ease-in-out 0s, -o-transform .2s ease-in-out 0s;
+    outline: 0;
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -25,10 +29,8 @@ body {
     box-shadow: rgba(0, 0, 0, .2) 0 10px 20px;
     position: relative;
     border-radius: 20px;
-    border-width: 5px;
     width: 130px;
     height: 180px;
-    border-color: #fff
   }
 
   .video-widget__container:hover {
